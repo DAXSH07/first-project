@@ -1,0 +1,41 @@
+.task-creation {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-creation h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.task-creation input,
+.task-creation textarea,
+.task-creation select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.task-creation textarea {
+  height: 100px;
+}
+
+.task-creation button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.task-creation button:hover {
+  background-color: #2ecc71;
+}
